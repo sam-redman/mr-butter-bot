@@ -4,6 +4,7 @@ Discord bot made using Pycord. It doesn't serve any singular purpose, it was mad
 ## Table of Contents
 * [Getting Started](#getting-started)
 * [Prerequisites](#prerequisites)
+* [Modules](#modules)
 * [Deployment](#deployment)
 
 ## Getting Started
