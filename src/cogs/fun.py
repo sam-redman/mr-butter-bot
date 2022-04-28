@@ -47,5 +47,6 @@ class Fun(commands.Cog):
         await ctx.respond(f"{member.mention}\n\n{response}")
 
 
+# Add the cog into the bot.
 def setup(bot):
     bot.add_cog(Fun(bot))
