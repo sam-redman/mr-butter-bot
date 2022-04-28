@@ -13,15 +13,13 @@ load_dotenv()
 
 # -------------------------- BOT SETUP -------------------------- #
 
-# Creates a client for the bot. prefix & command not needed when moved to slash commands.
+# Creates a client for the bot.
 bot = commands.Bot(debug_guilds=[690154666474209285])
 
 
 @bot.event
 # Simple confirmation that the bot is running.
 async def on_ready():
-    # Set what "game" the bot is "playing".
-    await bot.change_presence(activity=discord.Game(name="Are beans real?"))
     # Console feedback.
     print(f"We have logged in as {bot.user}.")
 
