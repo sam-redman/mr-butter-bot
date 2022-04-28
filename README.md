@@ -1,4 +1,4 @@
-# mr-butter-bot
+# Mr. Butter Bot
 Discord bot made using Pycord. It doesn't serve any singular purpose, it was made for fun.
 
 ## Table of Contents
