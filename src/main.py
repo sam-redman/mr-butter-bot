@@ -24,12 +24,12 @@ async def on_ready():
     await bot.change_presence(activity=discord.Game(name="Are beans real?"))
     # Console feedback.
     print(f"We have logged in as {bot.user}.")
-    print("_________________________________________")
 
 # Load cogs extensions.
 for file in os.listdir("src/cogs"):
     if file.endswith(".py"):
         bot.load_extension("cogs." + file[:-3])
+        print(f"{file} cog has loaded.")
 
 # -------------------------- RUN BOT -------------------------- #
 
