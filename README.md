@@ -15,7 +15,7 @@ Discord bot made using Pycord. It doesn't serve any singular purpose, it was mad
 ### Modules
 ````
 # Pycord
-python3 -m pip install -U py-cord --pre
+pip install py-cord==2.0.0b7
 
 # python-dotenv
 pip install python-dotenv
