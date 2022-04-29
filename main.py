@@ -20,7 +20,7 @@ bot = commands.Bot(debug_guilds=[690154666474209285])
 # Simple confirmation that the bot is running.
 async def on_ready():
     # Console feedback.
-    print(f"We have logged in as {bot.user}.")
+    print(f"Logged in as {bot.user}.")
 
 # Load cogs extensions.
 for file in os.listdir("cogs"):
