@@ -10,7 +10,7 @@ Discord bot made using Pycord. It doesn't serve any singular purpose, it was mad
 ## Getting Started
 
 ### Prerequisites
-* Python 3.9
+* Python
 
 ### Modules
 ````
