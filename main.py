@@ -13,7 +13,7 @@ load_dotenv()
 # -------------------------- BOT SETUP -------------------------- #
 
 # Creates a client for the bot.
-bot = commands.Bot(debug_guilds=[690154666474209285], command_prefix="!")
+bot = commands.Bot(debug_guilds=[690154666474209285])
 
 
 @bot.event
