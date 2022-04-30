@@ -28,7 +28,7 @@ pip install requests
 You can run this locally in an IDE that supports Python to start the bot. Alternatively, you can host the bot somewhere else so long as you have the packages in requirements.txt installed on the host.
 
 ````
-# Run the bot.
+# Run the program.
 python main.py
 ````
 
