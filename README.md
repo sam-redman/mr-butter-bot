@@ -8,10 +8,16 @@ Discord bot made using Pycord. It doesn't serve any singular purpose, it was mad
 * [Deployment](#deployment)
 
 ## Getting Started
+Every Discord bot requires a token in order for it to run. You can generate one by following this guide: https://www.writebots.com/discord-bot-token/ .
+
+Once you have a token, you need to create a .env file in your bot file directory simply called '.env' - this file should contain one line: 
+````
+BOT_TOKEN=TOKENHERE
+````
 
 ### Prerequisites
-* Python
-* Discord
+* [Python](https://www.python.org/downloads/)
+* [Discord](https://discord.com/)
 
 ### Modules
 ````
@@ -25,18 +31,16 @@ pip install python-dotenv
 pip install requests
 ````
 
-## Deployment
-You can run this locally in an IDE that supports Python to start the bot. Alternatively, you can host the bot somewhere else so long as you have the packages in requirements.txt installed on the host.
-
+### Running the Application Locally
 ````
 # Run the program.
 python main.py
 ````
 
-Every Discord bot requires a token in order for it to run. You can generate one by following this guide: https://www.writebots.com/discord-bot-token/ .
+## Deployment
+If you are hosting externally then specify an environment variable with BOT_TOKEN as the key and the value as the generated token value. You should enver upload a private token directly to Github or a third-party host.
 
-Once you have a token, you need to create a .env file in your bot file directory simply called '.env' - this file should contain one line: 
 ````
-BOT_TOKEN=TOKENHERE
+# Start command when hosted by a third-party.
+python main.py
 ````
-If you are hosting externally then specifiy an environment variable with BOT_TOKEN as the key and the value as the generated token value.
