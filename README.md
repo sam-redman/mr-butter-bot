@@ -11,11 +11,12 @@ Discord bot made using Pycord. It doesn't serve any singular purpose, it was mad
 
 ### Prerequisites
 * Python
+* Discord
 
 ### Modules
 ````
 # Pycord
-pip install py-cord==2.0.0b7
+pip install py-cord
 
 # python-dotenv
 pip install python-dotenv
