@@ -5,6 +5,7 @@ Discord bot made using Pycord. It doesn't serve any singular purpose, it was mad
 * [Getting Started](#getting-started)
 * [Prerequisites](#prerequisites)
 * [Modules](#modules)
+* [Running the Application Locally](#running-the-application-locally)
 * [Deployment](#deployment)
 
 ## Getting Started
