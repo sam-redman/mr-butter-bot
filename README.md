@@ -39,7 +39,7 @@ python main.py
 ````
 
 ## Deployment
-If you are hosting externally then specify an environment variable with BOT_TOKEN as the key and the value as the generated token value. You should enver upload a private token directly to Github or a third-party host.
+If you are hosting externally then specify an environment variable with BOT_TOKEN as the key and the value as the generated token value. You should never upload a private token directly to Github or a third-party host.
 
 ````
 # Start command when hosted by a third-party.
